@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+/* nav li ul logo */
+
+.navBar {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogoG {
+    width: 15%;
+    height: 10%;
+}
+
+.nav-links {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-links li {
+    list-style: none;
+    letter-spacing: 2px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    position: relative;
+    right: 35%;
+    bottom: 100%
+}
+
+.Boutique {
+    padding: 3px;
+    margin: 30px;
+    border-radius: 8px;
+    border-width: 3px;
+    border: solid rgb(177, 60, 61) 3px;
+}
+
+
+/* nav li ul logo */
+
+
+/* Header Img Title */
+
+.headerContent {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    background-size: cover;
+    border-top: 35px solid rgb(177, 60, 61);
+}
+
+.ImageHead {
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 27%;
+    top: 6rem;
+}
+
+.ImageHead img {
+    width: 100%;
+    height: 60rem;
+}
+
+.headTitle1 {
+    color: white;
+    letter-spacing: 4px;
+    position: absolute;
+    left: 37%;
+    bottom: 27%;
+    font-size: 47px;
+    z-index: 3;
+}
+
+.headTitle1::after {
+    content: "";
+    width: 18rem;
+    height: 8px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    left: -2px;
+}
+
+.headTitle2 {
+    color: white;
+    letter-spacing: 4px;
+    position: absolute;
+    left: 52%;
+    bottom: 193px;
+    font-size: 47px;
+    z-index: 3;
+}
+
+
+/* mainBar */
+
+.mainContentBar2 {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 1052px;
+    background-color: rgb(177, 60, 61);
+}
+
+.mainContentBar2 h3 {
+    color: white;
+    font-weight: unset;
+    font-size: 36px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 22.7%;
+    left: 83px;
+}
+
+
+/* mainBar */
+
+
+/* Image bloc */
+
+.image1 {
+    position: absolute;
+    left: 66%;
+    top: 117%;
+}
+
+.image1 img {
+    width: 368px;
+    height: 477px;
+}
+
+.image2 {
+    position: absolute;
+    left: 84%;
+    top: 117%;
+}
+
+.image2 img {
+    width: 262px;
+    height: 477px;
+}
+
+.image3 {
+    position: absolute;
+    left: 66%;
+    top: 164%
+}
+
+.image3 img {
+    width: 642px;
+    height: 311px;
+}
+
+
+/* Image bloc */
+
+
+/* TextContent1 */
+
+.textContent1 {
+    display: inline-block;
+    position: absolute;
+    width: 72rem;
+    height: 270px;
+    bottom: -42%;
+    left: 4%;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.textContent1 h3 {
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.textContent1 h3::after {
+    content: "";
+    display: block;
+    width: 47rem;
+    height: 8px;
+    background: rgb(177, 60, 61);
+    position: absolute;
+    top: 1rem;
+    left: 24rem;
+}
+
+.textContent p {
+    font-family: sans-serif;
+    max-height: 270px;
+    margin-right: 9rem;
+    padding: 0;
+    position: absolute;
+    top: 56px;
+    min-height: 250px;
+}
+
+
+/* TextContent1 */
+
+
+/* TextContent2 */
+
+.textContent2 {
+    position: absolute;
+    width: 72rem;
+    height: 270px;
+    bottom: -74%;
+    left: 4%;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.textContent2 h3 {
+    position: absolute;
+    text-transform: uppercase;
+    left: 67%;
+    top: -14%;
+}
+
+.textContent2 h3::before {
+    content: "";
+    display: block;
+    width: 47rem;
+    height: 8px;
+    background: rgb(177, 60, 61);
+    position: absolute;
+    top: 1rem;
+    right: 21rem;
+}
+
+.textContent p {
+    font-family: sans-serif;
+    max-height: 270px;
+    font-weight: 100;
+    margin-right: 9rem;
+    padding: 0;
+    position: absolute;
+    top: 56px;
+    min-height: 250px;
+    text-align: justify;
+}
+
+
+/* TextContent2 */
+
+
+/* TextContent3 */
+
+.textContent3 {
+    position: absolute;
+    width: 72rem;
+    height: 270px;
+    bottom: -100%;
+    left: 4%;
+    line-height: 30px;
+}
+
+.textContent3 h3 {
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    left: 0%;
+    top: -17%;
+}
+
+.textContent3 h3::after {
+    content: "";
+    display: block;
+    width: 48rem;
+    height: 8px;
+    background: rgb(177, 60, 61);
+    position: absolute;
+    top: 1rem;
+    left: 23rem;
+}
+
+.textContent p {
+    font-family: sans-serif;
+    max-height: 270px;
+    margin-right: 9rem;
+    padding: 0;
+    position: absolute;
+    top: 56px;
+    min-height: 250px;
+}
+
+
+/* TextContent3 */
+
+
+/* Second Content */
+
+.mainContentBar1 {
+    height: 10%;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 202%;
+    background-color: rgb(177, 60, 61);
+}
+
+.mainContentBar1 h3 {
+    color: white;
+    font-weight: unset;
+    font-size: 36px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 24%;
+    right: 4rem;
+}
+
+.footer {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 292%;
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock {
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 222%;
+    padding: 10px;
+}
+
+.stock h3 {
+    position: absolute;
+    top: -57%;
+    left: 8%;
+    letter-spacing: 3px;
+}
+
+.stock h3::after {
+    content: "";
+    display: block;
+    float: right;
+    margin: 14px;
+    width: 13rem;
+    height: 8px;
+    background: rgb(177, 60, 61);
+}
+
+.guitarImg1 {
+    position: absolute;
+    left: 13%;
+    top: 233%;
+    bottom: 20%;
+}
+
+.guitarImg1 img {
+    width: 262px;
+    height: 413px
+}
+
+.gibson1 {
+    position: absolute;
+    left: 39px;
+    top: 426px;
+}
+
+.price1 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: absolute;
+    top: 48vh;
+    right: 7vh;
+}
+
+.first {
+    position: absolute;
+    top: 53vh;
+    right: 6vh;
+    background-color: rgb(177, 60, 61);
+    color: white;
+    border-radius: 4px;
+    width: 13vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-weight: 10px;
+    border: rgb(177, 60, 61);
+}
+
+.guitarImg2 {
+    position: absolute;
+    left: 31%;
+    top: 233%;
+    bottom: 20%;
+}
+
+.guitarImg2 img {
+    width: 262px;
+    height: 428px;
+}
+
+.price2U {
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: absolute;
+    top: 48vh;
+    right: 24vh;
+    text-decoration-line: line-through;
+}
+
+.price2 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: absolute;
+    top: 48vh;
+    right: 7vh;
+}
+
+.second {
+    position: absolute;
+    top: 53vh;
+    right: 10vh;
+    background-color: rgb(177, 60, 61);
+    color: white;
+    border-radius: 4px;
+    width: 13vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-weight: 10px;
+    border: rgb(177, 60, 61);
+}
+
+.guitarImg3 {
+    position: absolute;
+    left: 50%;
+    top: 233%;
+    bottom: 20%;
+}
+
+.guitarImg3 img {
+    width: 270px;
+    height: 408px;
+}
+
+.strander {
+    position: absolute;
+    top: 426px;
+}
+
+.price3 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: absolute;
+    top: 48vh;
+    right: 7vh;
+}
+
+.third {
+    position: absolute;
+    top: 53vh;
+    right: 6vh;
+    background-color: rgb(177, 60, 61);
+    color: white;
+    border-radius: 4px;
+    width: 13vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-weight: 10px;
+    border: rgb(177, 60, 61);
+}
+
+.guitarImg4 {
+    position: absolute;
+    left: 69%;
+    top: 233%;
+    bottom: 20%;
+}
+
+.guitarImg4 img {
+    width: 270px;
+    height: 408px;
+}
+
+.doubleNeck {
+    position: absolute;
+    top: 426px;
+}
+
+.price4 {
+    letter-spacing: 3px;
+    font-size: 20px;
+    position: absolute;
+    top: 48vh;
+    right: 7vh;
+}
+
+.fourth {
+    position: absolute;
+    top: 53vh;
+    right: 6vh;
+    background-color: rgb(177, 60, 61);
+    color: white;
+    border-radius: 4px;
+    width: 13vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-weight: 10px;
+    border: rgb(177, 60, 61);
+}
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
